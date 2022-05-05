@@ -1,0 +1,37 @@
+.contacts-header {
+  display: flex;
+  margin-left: auto;
+  justify-content: center;
+}
+
+.contacts-header__info {
+  font-family: $main-font;
+  color: $contact-color;
+  font-weight: 500;
+  line-height: 1.14;
+  display: flex;
+  align-items: center;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-left: 30px;
+}
+
+.contacts-header__info:hover,
+.contacts-header__info:focus {
+  color: $logo-accent;
+}
+
+.contacs-header__mail {
+  display: inline-flex;
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.contacs-header__phone {
+  display: inline-flex;
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: currentColor;
+}
