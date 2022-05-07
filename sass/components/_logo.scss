@@ -1,14 +1,14 @@
 .logo__accent {
-  font-family: var(--logo-font);
-  color: var(--logo-accent);
+  font-family: $logo-font;
+  color: $logo-accent;
   font-size: 26px;
   font-weight: 700;
   line-height: 1.2;
 }
 
 .logo__dark {
-  font-family: var(--logo-font);
-  color: var(--text-color);
+  font-family: $logo-font;
+  color: $text-color;
   font-size: 26px;
   font-weight: 700;
   line-height: 1.2;
@@ -16,8 +16,8 @@
 }
 
 .logo__white {
-  font-family: var(--logo-font);
-  color: var(--text-accent);
+  font-family: $logo-font;
+  color: $text-accent;
   font-size: 26px;
   font-weight: 700;
   line-height: 1.2;
